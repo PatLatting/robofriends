@@ -1,0 +1,47 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* Robot Card */
+.robotCard {
+    display: grid;
+}
+
+/* iPads and Tablets */
+@media screen and (min-width: 501px) {
+    .robotCard {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Small screens and Laptops */
+@media screen and (min-width: 768px) {
+    .robotCard {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* Desktops, large Screens */
+@media screen and (min-width: 1024px) {
+    .robotCard {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* Extra Large Screens */
+@media screen and (min-width: 1200px) {
+    .robotCard {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to left, rgba(7,27,82,1) 0%, rgba(0,128,128,1) 100%);
+}
+
+
+
+
